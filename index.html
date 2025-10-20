@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ประวัติส่วนตัว</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+            animation: fadeInDown 0.8s ease;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+            color: white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #555;
+        }
+
+        .section {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            animation: fadeInUp 0.8s ease;
+        }
+
+        h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+            font-size: 1.8em;
+        }
+
+        .about-text {
+            color: #555;
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+
+        .education-item, .experience-item {
+            margin-bottom: 25px;
+            padding-left: 20px;
+            border-left: 4px solid #667eea;
+        }
+
+        .education-item h3, .experience-item h3 {
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .date {
+            color: #764ba2;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .skill-item {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: bold;
+            transition: transform 0.3s ease;
+        }
+
+        .skill-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+            
+            .contact-info {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="profile-img">👤</div>
+            <h1>ชื่อ-นามสกุล</h1>
+            <p class="subtitle">ตำแหน่งงาน / อาชีพ</p>
+            <div class="contact-info">
+                <div class="contact-item">📧 email@example.com</div>
+                <div class="contact-item">📱 012-345-6789</div>
+                <div class="contact-item">📍 กรุงเทพมหานคร, ประเทศไทย</div>
+            </div>
+        </header>
+
+        <section class="section">
+            <h2>เกี่ยวกับฉัน</h2>
+            <p class="about-text">
+                สวัสดีครับ! ผม/ดิฉันเป็นบุคคลที่มีความกระตือรือร้นและชอบเรียนรู้สิ่งใหม่ๆ 
+                มีประสบการณ์ในด้านต่างๆ และพร้อมที่จะพัฒนาตนเองอยู่เสมอ 
+                ผม/ดิฉันเชื่อว่าการทำงานเป็นทีมและการสื่อสารที่ดีเป็นกุญแจสำคัญของความสำเร็จ
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>การศึกษา</h2>
+            <div class="education-item">
+                <h3>ปริญญาตรี สาขา...</h3>
+                <p class="date">📅 พ.ศ. 2560 - 2564</p>
+                <p>มหาวิทยาลัย...</p>
+                <p>เกรดเฉลี่ย: 3.50</p>
+            </div>
+            <div class="education-item">
+                <h3>มัธยมศึกษาตอนปลาย</h3>
+                <p class="date">📅 พ.ศ. 2557 - 2560</p>
+                <p>โรงเรียน...</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>ประสบการณ์ทำงาน</h2>
+            <div class="experience-item">
+                <h3>ตำแหน่ง...</h3>
+                <p class="date">📅 พ.ศ. 2564 - ปัจจุบัน</p>
+                <p><strong>บริษัท...</strong></p>
+                <p>รายละเอียดงานและความรับผิดชอบ...</p>
+            </div>
+            <div class="experience-item">
+                <h3>ตำแหน่ง...</h3>
+                <p class="date">📅 พ.ศ. 2563 - 2564</p>
+                <p><strong>บริษัท...</strong></p>
+                <p>รายละเอียดงานและความรับผิดชอบ...</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>ทักษะ</h2>
+            <div class="skills-grid">
+                <div class="skill-item">HTML & CSS</div>
+                <div class="skill-item">JavaScript</div>
+                <div class="skill-item">การสื่อสารภาษาไทย</div>
+                <div class="skill-item">การสื่อสารภาษาอังกฤษ</div>
+                <div class="skill-item">การทำงานเป็นทีม</div>
+                <div class="skill-item">การแก้ปัญหา</div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
