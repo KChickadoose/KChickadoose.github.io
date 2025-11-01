@@ -1,6 +1,17 @@
 /*----------------PC--------------------*/
-@media (max-width: 768px) {
-
+@media screen and(max-width: 768px) {
+    body{
+        width: 768px;
+        font-family: "Thasadith";
+        font-size: 16px;
+    }
+    .container{
+    
+    }
+    img{
+        width: 50px;
+        height: 50px;
+    }
 }
 @media (max-width: 1280px) {
 
