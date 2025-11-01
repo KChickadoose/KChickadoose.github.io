@@ -1,32 +1,57 @@
+.LG-TH{
+    font-family: "Thasadith";
+}
+.LG-EN{
+    font-family: "Cinzel";
+}
 /*----------------PC--------------------*/
 @media screen and (max-width: 769px) {
-    .LG-TH{
-        font-family: "Thasadith";
-    }
-    .LG-EN{
-        font-family: "Cinzel";
-    }
     .subheader{
-        font-size: 20px;
+        font-size: 18px;
         text-align: center;
         font-weight: bold;
     }
     .fs-16{
         font-size: 16px;
     }
-    .circle {
+    .symbol-line{
+        display: flex;
+        position: relative; 
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 20px;
+    }
+    .circle-left {
         display: block;
         background: black;
         border-radius: 50%;
         height: 15px;
         width: 15px;
-        margin: 0;
+        position: absolute; 
+        left: 0%;
+    }
+    hr{
+        border: 1px solid black;
+        width: 99%;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .circle-right {
+        display: block;
+        background: black;
+        border-radius: 50%;
+        height: 15px;
+        width: 15px;
+        position: absolute; 
+        right: 0%;
     }
     body{
         max-width: 100%;
     }
     header{
-        font-size: 24px;
+        font-size: 20px;
         text-align: center;
         padding: 5px;
         padding-top: 15px;
@@ -37,8 +62,8 @@
         display: block;
     }
     img{
-        width: 30%;
-        height: 30%;
+        width: 25%;
+        height: 25%;
         display: block;
         margin-top: 10%;
         margin-left: auto;
@@ -47,13 +72,7 @@
         border-radius: 10px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
-    hr{
-        border: 1px solid black;
-    }
 
-    p{
-        font-size: 16px;
-    }
 }
 
 /*----------------MOBILE--------------------*/
