@@ -19,9 +19,15 @@
     font-style: normal; /* Define the font style (e.g., normal, italic) */
 }
 @font-face {
-    font-family:"Chakra_Petch-Bold" ; /* set name */
+    font-family:"ChakraPetch-Bold" ; /* set name */
     src: url(font/Chakra_Petch/ChakraPetch-Bold.ttf)format("truetype"); /* url of the font */
     font-weight: bold; /* Define the font weight (e.g., normal, bold, 400, 700) */
+    font-style: normal; /* Define the font style (e.g., normal, italic) */
+}
+@font-face {
+    font-family:"ChakraPetch-Light" ; /* set name */
+    src: url(font/Chakra_Petch/ChakraPetch-Light.ttf)format("truetype"); /* url of the font */
+    font-weight: lighter; /* Define the font weight (e.g., normal, bold, 400, 700) */
     font-style: normal; /* Define the font style (e.g., normal, italic) */
 }
 /*--------------Thasadith---------------------------------------------*/
