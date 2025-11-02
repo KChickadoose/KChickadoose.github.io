@@ -37,6 +37,9 @@
 .d-block{
     display: block;
 }
+.d-inline-block{
+    display: inline-block;
+}
 /*----------------PC--------------------*/
 @media screen and (max-width: 769px) {
     .subheader{
@@ -80,15 +83,13 @@
     }
     .container {
         max-width: 100%;
-        display: block;
     }
     .Profile{
         max-width: 100%;
         padding: 10px;
         border: 1px solid black;
         border-radius: 10px;
-        width: 50%;
-        display: block;
+        width: 45%;
         margin: 5px;
     }
     .Education{
@@ -96,9 +97,19 @@
         padding: 10px;
         border: 1px solid black;
         border-radius: 10px;
-        width: 50%;
-        display: block;
+        width: 45%;
         margin: 5px;
+    }
+    .Skill{
+        max-width: 100%;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 10px;
+        width: 45%;
+        margin: 5px;
+    }
+    .Profile.Skill{
+        position: absolute;
     }
     .row{
         max-width: 100%;
