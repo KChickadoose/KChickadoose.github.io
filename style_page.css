@@ -4,6 +4,9 @@
 .LG-EN{
     font-family: "Cinzel";
 }
+.LG-EN2{
+    font-family: "ChakraPetch";
+}
 /*----------------PC--------------------*/
 @media screen and (max-width: 769px) {
     .subheader{
@@ -11,8 +14,14 @@
         text-align: center;
         font-weight: bold;
     }
+    .fs-18{
+        font-size: 18px;
+    }
     .fs-16{
         font-size: 16px;
+    }
+    .fs-14{
+        font-size: 14px;
     }
     .symbol-line{
         display: flex;
@@ -47,6 +56,29 @@
         position: absolute; 
         right: 0%;
     }
+    .container {
+        max-width: 100%;
+        display: block;
+    }
+    .Profile{
+        max-width: 100%;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 10px;
+        width: 50%;
+        display: block;
+    }
+    .row{
+        max-width: 100%;
+        display: flex;
+    }
+    .col{
+        display: block;
+        margin-right: 5px;
+    }
+    .B,.b{
+        font-weight: bold;
+    }
     body{
         max-width: 100%;
     }
@@ -56,10 +88,6 @@
         padding: 5px;
         padding-top: 15px;
         font-weight: bold;
-    }
-    .container {
-        max-width: 100%;
-        display: block;
     }
     img{
         width: 25%;
