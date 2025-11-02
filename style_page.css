@@ -5,7 +5,37 @@
     font-family: "Cinzel";
 }
 .LG-EN2{
-    font-family: "ChakraPetch";
+    font-family: "ChakraPetch-Light";
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.text-center{
+    text-align: center;
+}
+.B,.b{
+    font-weight: bold;
+}
+.p-relative{
+    position: relative;
+}
+.p-absolute{
+    position: absolute;
+}
+.d-grid{
+    display: grid;
+}
+.d-flex{
+    display: flex;
+}
+.d-block{
+    display: block;
 }
 /*----------------PC--------------------*/
 @media screen and (max-width: 769px) {
@@ -14,15 +44,7 @@
         text-align: center;
         font-weight: bold;
     }
-    .fs-18{
-        font-size: 18px;
-    }
-    .fs-16{
-        font-size: 16px;
-    }
-    .fs-14{
-        font-size: 14px;
-    }
+
     .symbol-line{
         display: flex;
         position: relative; 
@@ -67,17 +89,31 @@
         border-radius: 10px;
         width: 50%;
         display: block;
+        margin: 5px;
+    }
+    .Education{
+        max-width: 100%;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 10px;
+        width: 50%;
+        display: block;
+        margin: 5px;
     }
     .row{
         max-width: 100%;
-        display: flex;
+        padding: 2px;
     }
     .col{
         display: block;
         margin-right: 5px;
     }
-    .B,.b{
-        font-weight: bold;
+    .logo{
+        width: 20%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     body{
         max-width: 100%;
@@ -89,7 +125,7 @@
         padding-top: 15px;
         font-weight: bold;
     }
-    img{
+    .img{
         width: 25%;
         height: 25%;
         display: block;
@@ -100,6 +136,7 @@
         border-radius: 10px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
+
 
 }
 
