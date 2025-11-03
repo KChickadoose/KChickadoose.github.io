@@ -151,9 +151,9 @@
         padding: 2px;
         position: relative;
     }
-    .E-col{
+    /*.E-col{
         
-    }
+    }*/
     .Skill{
         padding: 10px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -193,6 +193,19 @@
     .icon-rectangle{
         width: 100px;
         height: 48px;
+    }
+    .Working{
+        padding: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 10px;
+        margin: 5px;
+        display: block;
+    }
+    h3{
+        font-family: "Thasadith";
+        max-width: 100%;
+        display: grid;
+        position: relative;
     }
     body{
         max-width: 100%;
