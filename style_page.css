@@ -19,6 +19,9 @@
 .text-center{
     text-align: center;
 }
+.text-left{
+    text-align: left;
+}
 .text-justify{
     text-align: justify;
 }
@@ -163,10 +166,11 @@
     .S-row{
         max-width: 100%;
         display: flex;
+        margin: 2px;
     }
     .S-col{
        display: grid;
-       margin: auto;
+       margin: 2px;
     }
     .logo-NPRU{
         width: 20%;
@@ -176,8 +180,12 @@
         right: 0%;
         /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
     }
-    .icon{
+    .icon-square{
         width: 48px;
+        height: 48px;
+    }
+    .icon-rectangle{
+        width: 100px;
         height: 48px;
     }
     body{
