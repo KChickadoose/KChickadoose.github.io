@@ -19,6 +19,9 @@
 .text-center{
     text-align: center;
 }
+.text-justify{
+    text-align: justify;
+}
 .B,.b{
     font-weight: bold;
 }
@@ -49,6 +52,8 @@
 .d-inline-block{
     display: inline-block;
 }
+
+
 /*----------------PC--------------------*/
 @media screen and (max-width: 769px) {
     .fs1{
@@ -101,7 +106,6 @@
     }
     .container-head {
         max-width: 100%;
-        display: block;
         position: relative;
     }
     .container-body {
@@ -110,25 +114,22 @@
         gap: 20px;
     }
 
-    /* เอา absolute ออก */
+    /* เอา absolute ออก 
     .Profile, .Skill, .Education {
-        position: static; /* หรือไม่ต้องใส่เลย */
+        position: static; 
         border: 1px solid black;
         border-radius: 10px;
         padding: 10px;
         background: white;
-    }
+    }*/
 
-    /*.container-body{
+    .container-body1{
         max-width: 100%;
         height: auto;
         position: relative;
         display: block;
     }
     .Profile{
-        left: 0%;
-        top: 0%;
-        position: absolute;
         padding: 10px;
         border: 1px solid black;
         border-radius: 10px;
@@ -136,47 +137,52 @@
         margin: 2px;
         display: block;
     }
-    .Education{
-        left: 0%;
-        bottom: 0%;
-        position: absolute;
-        padding: 10px;
-        border: 1px solid black;
-        border-radius: 10px;
-        width: 45%;
-        margin: 2px;
-        display: block;
-    }
-    .Skill{
-        top: 0%;
-        right: 0%;
-        position: absolute;
-        padding: 10px;
-        border: 1px solid black;
-        border-radius: 10px;
-        width: 45%;
-        margin: 2px;
-        display: block;
-    }
-    .Skill, .Education {
-        box-sizing: border-box;
-    }*/
-    .row{
+    .P-row{
         max-width: 100%;
+        display: flex;
         padding: 2px;
     }
-    .col{
-        display: block;
+    .P-col{
         margin-right: 5px;
     }
-    .col-block{
+    .Education{
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 10px;
+        width: 45%;
+        margin: 2px;
         display: block;
     }
-    .logo{
-        width: 20%;
+    .E-row{
+        max-width: 100%;
+        display: grid;
+        padding: 2px;
+        position: relative;
+    }
+    .E-col{
+        
+    }
+    .Skill{
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 10px;
+        width: 45%;
+        margin: 2px;
         display: block;
+    }
+    .S-row{
+        max-width: 100%;
+        display: flex;
+    }
+    .S-col{
+       display: inline-block;
+    }
+    .logo-NPRU{
+        width: 20%;
         margin-left: auto;
         margin-right: auto;
+        position: absolute;
+        right: 0%;
         /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
     }
     .icon{
@@ -185,7 +191,6 @@
     }
     body{
         max-width: 100%;
-        height: auto;
     }
     header{
         font-size: 20px;
