@@ -113,16 +113,6 @@
         grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
         gap: 20px;
     }
-
-    /* เอา absolute ออก 
-    .Profile, .Skill, .Education {
-        position: static; 
-        border: 1px solid black;
-        border-radius: 10px;
-        padding: 10px;
-        background: white;
-    }*/
-
     .container-body1{
         max-width: 100%;
         height: auto;
@@ -175,7 +165,8 @@
         display: flex;
     }
     .S-col{
-       display: inline-block;
+       display: grid;
+       margin: auto;
     }
     .logo-NPRU{
         width: 20%;
