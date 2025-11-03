@@ -111,23 +111,23 @@
         max-width: 100%;
         position: relative;
     }
-    .container-body {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-        gap: 20px;
-    }
     .container-body1{
-        max-width: 100%;
+        max-width: 45%;
         height: auto;
         position: relative;
         display: block;
     }
+    .container-body2{
+        max-width: 45%;
+        height: auto;
+        position: absolute;
+        display: block;
+    }
     .Profile{
         padding: 10px;
-        border: 1px solid black;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         border-radius: 10px;
-        width: 45%;
-        margin: 2px;
+        margin: 5px;
         display: block;
     }
     .P-row{
@@ -140,10 +140,9 @@
     }
     .Education{
         padding: 10px;
-        border: 1px solid black;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         border-radius: 10px;
-        width: 45%;
-        margin: 2px;
+        margin: 5px;
         display: block;
     }
     .E-row{
@@ -157,20 +156,27 @@
     }
     .Skill{
         padding: 10px;
-        border: 1px solid black;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         border-radius: 10px;
-        width: 45%;
-        margin: 2px;
+        margin: 5px;
         display: block;
     }
-    .S-row{
+    dl{
         max-width: 100%;
         display: flex;
         margin: 2px;
     }
-    .S-col{
-       display: grid;
-       margin: 2px;
+    dt{
+        max-width: 100%;
+        display: block;
+    }
+    dd{
+        display: grid;
+        margin: 2px;
+        padding: 5px;
+        text-align: center;
+        justify-content: center;
+        /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
     }
     .logo-NPRU{
         width: 20%;
@@ -212,7 +218,7 @@
     a{
         display: block;
         border: none;
-        color: black;
+        color: white;
         padding: 15px 32px;
         text-align: center;
         text-decoration: none;
@@ -221,7 +227,8 @@
         margin: 4px 2px;
         cursor: pointer;
         transition-duration: 0.2s;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: green;
+        font-weight: bold;
     }
     a:hover {box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);}
 
