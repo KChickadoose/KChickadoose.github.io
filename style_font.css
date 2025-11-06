@@ -43,3 +43,16 @@
     font-weight: bold; /* Define the font weight (e.g., normal, bold, 400, 700) */
     font-style: normal; /* Define the font style (e.g., normal, italic) */
 }
+/*--------------Sarabun---------------------------------------------*/
+@font-face {
+    font-family:"Sarabun" ; /* set name */
+    src: url(font/Sarabun/Sarabun-Regular.ttf)format("truetype"); /* url of the font */
+    font-weight: normal; /* Define the font weight (e.g., normal, bold, 400, 700) */
+    font-style: normal; /* Define the font style (e.g., normal, italic) */
+}
+@font-face {
+    font-family:"Sarabun-Bold" ; /* set name */
+    src: url(font/Sarabun/Sarabun-Bold.ttf)format("truetype"); /* url of the font */
+    font-weight: bold; /* Define the font weight (e.g., normal, bold, 400, 700) */
+    font-style: normal; /* Define the font style (e.g., normal, italic) */
+}
