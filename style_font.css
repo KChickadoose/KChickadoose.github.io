@@ -56,3 +56,9 @@
     font-weight: bold; /* Define the font weight (e.g., normal, bold, 400, 700) */
     font-style: normal; /* Define the font style (e.g., normal, italic) */
 }
+@font-face {
+    font-family:"Sarabun-Light" ; /* set name */
+    src: url(font/Sarabun/Sarabun-Light.ttf)format("truetype"); /* url of the font */
+    font-weight: bold; /* Define the font weight (e.g., normal, bold, 400, 700) */
+    font-style: normal; /* Define the font style (e.g., normal, italic) */
+}
