@@ -330,7 +330,7 @@
         max-width: 100%;
         height: auto;
         display: inline-flex;
-        position: static;
+        
     }
     .container-body2{
         display: none;
