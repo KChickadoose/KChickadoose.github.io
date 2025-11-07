@@ -62,3 +62,16 @@
     font-weight: lighter; /* Define the font weight (e.g., normal, bold, 400, 700) */
     font-style: normal; /* Define the font style (e.g., normal, italic) */
 }
+/*-------------------------------------------------------------------------*/
+.LG-TH{
+    font-family: "Sarabun-Light";
+}
+.LG-TH2{
+    font-family: "Thasadith";
+}
+.LG-EN{
+    font-family: "Cinzel";
+}
+.LG-EN2{
+    font-family: "ChakraPetch-Light";
+}
